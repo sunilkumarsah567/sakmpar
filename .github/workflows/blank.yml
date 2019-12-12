@@ -3,15 +3,15 @@ name: CI sakmpar
 on: [push]1213acq
 
 jobs:
-  build:
+  build:create a big blog post
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 0.7.8.9
 
-    steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
+    steps:1a
+    - uses: sakmpar actions/checkout@v1
+    - name: blog Run a one-line script
+      run: sakmpar echo Hello, world!
+    - name: blog Run a multi-line script
+      run: |sakmpar
         echo Add other actions to build,
         echo test, and deploy your project.
